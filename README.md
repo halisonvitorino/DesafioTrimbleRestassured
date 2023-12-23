@@ -1,6 +1,7 @@
 # Testes API Trimble
 
-Test #2 - HTTP Bin (rest)
+HTTP Bin (rest)
+
     HTTP Bin é um serviço simples de requisição e respostas HTTP construído para demonstrar o uso do protocolo HTTP.
     **A documentação (swagger) encontrada em: http://httpbin.org**
 
@@ -10,12 +11,15 @@ Test #2 - HTTP Bin (rest)
 Dados para realização dos testes: 
 
 GET http://httpbin.org/base64/{value}
+
 Descrição:
     Decodifica uma string codificada em base64.
+
 Critérios de Aceitação:
     Validação do status code.
     Validação da string decodificada na response.
     Você pode usar a string codificada no exemplo abaixo ou usar uma de sua preferência.
+
 Exemplo:
 curl -X GET "http://httpbin.org/base64/SXMgaXMgYWxtb3N0IENocmlzdG1hcw==" \
 -H "accept: text/html"
@@ -23,12 +27,15 @@ curl -X GET "http://httpbin.org/base64/SXMgaXMgYWxtb3N0IENocmlzdG1hcw==" \
 --------------------------------------------------------------------------------------------------------------
 
 POST http://httpbin.org/anything
+
 Descrição:
     Recebe um JSON qualquer no corpo da request e responde com o JSON enviado como parte do corpo da response.
     Considere que você está testando um endpoint que irá cadastrar um TODO Item (item de uma lista de tarefas)
+
 Critérios de Aceitação:
     Validação do status code.
     Validação do retorno contendo o valor passado na request.
+
 Exemplo:
 curl -X POST "http://httpbin.org/anything" \
 -H "accept: application/json" \
@@ -38,11 +45,13 @@ curl -X POST "http://httpbin.org/anything" \
 --------------------------------------------------------------------------------------------------------------
 
 PUT http://httpbin.org/anything/{id}
+
 Descrição:
     Considere que você está modificando um item de uma lista de tarefas passando o ID na query string.
     Critérios de Aceitação
     Uso do método PUT
     Validação do status code
+
 Exemplo:
 curl -X PUT "http://httpbin.org/anything/1" \
 -H "accept: application/json" \
@@ -52,11 +61,13 @@ curl -X PUT "http://httpbin.org/anything/1" \
 --------------------------------------------------------------------------------------------------------------
 
 DELETE http://httpbin.org/anything/{id}
+
 Descrição:
     Considere que você está deletando um item de uma lista de tarefas passando o ID na query string.
     Critérios de Aceitação
     Uso do método DELETE
     Validação do status code
+
 Exemplo:
 curl -X DELETE "http://httpbin.org/anything/1" \
 -H "accept: application/json"
