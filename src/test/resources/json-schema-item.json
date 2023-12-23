@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "args": {
+      "type": "object"
+    },
+    "data": {
+      "type": "string"
+    },
+    "files": {
+      "type": "object"
+    },
+    "form": {
+      "type": "object"
+    },
+    "headers": {
+      "type": "object",
+      "properties": {
+        "Accept": {
+          "type": "string"
+        },
+        "Accept-Encoding": {
+          "type": "string"
+        },
+        "Cache-Control": {
+          "type": "string"
+        },
+        "Content-Length": {
+          "type": "string"
+        },
+        "Content-Type": {
+          "type": "string"
+        },
+        "Host": {
+          "type": "string"
+        },
+        "Postman-Token": {
+          "type": "string"
+        },
+        "User-Agent": {
+          "type": "string"
+        },
+        "X-Amzn-Trace-Id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Accept",
+        "Accept-Encoding",
+        "Cache-Control",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "Postman-Token",
+        "User-Agent",
+        "X-Amzn-Trace-Id"
+      ]
+    },
+    "json": {
+      "type": "object",
+      "properties": {
+        "checked": {
+          "type": "boolean"
+        },
+        "criado": {
+          "type": "string"
+        },
+        "todo": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "checked",
+        "criado",
+        "todo"
+      ]
+    },
+    "method": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "args",
+    "data",
+    "files",
+    "form",
+    "headers",
+    "json",
+    "method",
+    "origin",
+    "url"
+  ]
+}

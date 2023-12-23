@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="Desafio_Trimble.tests.GetApiRequestTest"/>
+            <class name="Desafio_Trimble.tests.PostApiRequestTest"/>
+            <class name="Desafio_Trimble.tests.PutApiRequestTest"/>
+            <class name="Desafio_Trimble.tests.DelApiRequestTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

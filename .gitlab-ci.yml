@@ -1,0 +1,31 @@
+stages:          # Estágios e ordem de execução dos jobs
+  - build
+  - test
+  - deploy
+
+build-job:       # Build
+  stage: build
+  script:
+    - echo "Compilando..."
+    - echo "Compilação finalizada."
+
+unit-test-job:   # Estágio de testes.
+  stage: test
+  script:
+    - echo "Executando os testes."
+    - sleep 60
+    - echo "Cobertura 90%"
+
+lint-test-job:   # Estágio de testes.
+  stage: test
+  script:
+    - echo "Avaliando o código."
+    - sleep 10
+    - echo "Avaliação finalizada."
+
+deploy-job:      # Estágio deploy.
+  stage: deploy
+  environment: production
+  script:
+    - echo "Iniciando deploy..."
+    - echo "Sucesso."
