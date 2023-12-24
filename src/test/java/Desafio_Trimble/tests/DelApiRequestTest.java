@@ -20,7 +20,7 @@ public class DelApiRequestTest extends BaseTest {
                     .post("anything/1")
                 .then()
                     .assertThat()
-                    .statusCode(201)
+                    .statusCode(200)
                     .extract().response();
     }
     @Test
