@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -15,7 +14,6 @@ import java.io.File;
 import java.io.IOException;
 
 import static Desafio_Trimble.utils.FileNamesConstants.BASE_URL;
-import static org.hamcrest.core.StringContains.containsString;
 
 public class PostApiRequestTest extends BaseTest {
     @Test

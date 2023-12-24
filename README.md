@@ -76,6 +76,7 @@ curl -X DELETE "http://httpbin.org/anything/1" \
 ### 🔩 Ferramentas Utilizadas
 
 * IDE - Intellij
+* CI/CD - Github Actions
 * Postman
     **Testes manuais com validações automatizadas em javascript - Acesso a collection disponibilizada ao avaliador**
 * (https://jsonformatter.org/json-to-jsonschema) - Criador de schema

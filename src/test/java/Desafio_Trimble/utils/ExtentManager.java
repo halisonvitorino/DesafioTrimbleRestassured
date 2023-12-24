@@ -26,11 +26,4 @@ public class ExtentManager {
         extent.attachReporter(htmlReporter);
         return extent;
     }
-    public static ExtentReports getInstance() {
-        if (extent == null) {
-            // Pode lançar uma exceção ou lidar de outra maneira
-            throw new IllegalStateException("ExtentReports não foi inicializado");
-        }
-        return extent;
-    }
 }

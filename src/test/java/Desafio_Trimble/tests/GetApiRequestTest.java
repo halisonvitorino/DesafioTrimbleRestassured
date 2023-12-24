@@ -2,15 +2,12 @@ package Desafio_Trimble.tests;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import Desafio_Trimble.utils.BaseTest;
-import Desafio_Trimble.utils.FileNamesConstants;
-import java.io.File;
+
 import static Desafio_Trimble.utils.FileNamesConstants.BASE_URL;
-import static org.hamcrest.Matchers.equalTo;
 
 public class GetApiRequestTest extends BaseTest {
     @Test
