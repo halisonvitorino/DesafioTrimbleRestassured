@@ -76,15 +76,11 @@ curl -X DELETE "http://httpbin.org/anything/1" \
 ### 🔩 Ferramentas Utilizadas
 
 * IDE - Intellij
-<<<<<<< Updated upstream
 * CI/CD - Github Actions - 
     **Testes automatizados a cada atualização e integração**
-* Postman - 
-=======
 * CI/CD - Github Actions
     **Testes automatizados - Restassured - Rodam a cada alteração de código**
 * Postman
->>>>>>> Stashed changes
     **Testes manuais com validações automatizadas em javascript - Acesso a collection disponibilizada ao avaliador**
 * (https://jsonformatter.org/json-to-jsonschema) - Criador de schema
 * (https://jsonpathfinder.com) - Localizador de paths em json
