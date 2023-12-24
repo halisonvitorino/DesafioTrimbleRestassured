@@ -76,9 +76,15 @@ curl -X DELETE "http://httpbin.org/anything/1" \
 ### 🔩 Ferramentas Utilizadas
 
 * IDE - Intellij
+<<<<<<< Updated upstream
 * CI/CD - Github Actions - 
     **Testes automatizados a cada atualização e integração**
 * Postman - 
+=======
+* CI/CD - Github Actions
+    **Testes automatizados - Restassured - Rodam a cada alteração de código**
+* Postman
+>>>>>>> Stashed changes
     **Testes manuais com validações automatizadas em javascript - Acesso a collection disponibilizada ao avaliador**
 * (https://jsonformatter.org/json-to-jsonschema) - Criador de schema
 * (https://jsonpathfinder.com) - Localizador de paths em json
@@ -86,10 +92,10 @@ curl -X DELETE "http://httpbin.org/anything/1" \
 
 ## 🛠️ Construído com
 
-* [RestAssured](https://rest-assured.io) - Framework
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [TestNG](https://testng.org/doc/) - Framework
-* [JAVA](https://www.java.com/pt-BR/) - Linguagem
+* [RestAssured](https://rest-assured.io) - Framework de testes de API
+* [Maven](https://maven.apache.org/) - Gerenciador de Dependências
+* [TestNG](https://testng.org/doc/) - Framework de testes
+* [JAVA](https://www.java.com/pt-BR/) - Linguagem de programação
 
 ## 📌 Versão
 
