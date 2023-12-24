@@ -77,10 +77,9 @@ curl -X DELETE "http://httpbin.org/anything/1" \
 
 * IDE - Intellij
 * CI/CD - Github Actions - 
-    **Testes automatizados a cada atualização e integração**
-* CI/CD - Github Actions
-    **Testes automatizados - Restassured - Rodam a cada alteração de código**
-* Postman
+    **Testes automatizados - Postman     - Rodam a cada atualização e integração**
+    **Testes automatizados - Restassured - Rodam a cada alteração e integração**
+* Postman - 
     **Testes manuais com validações automatizadas em javascript - Acesso a collection disponibilizada ao avaliador**
 * (https://jsonformatter.org/json-to-jsonschema) - Criador de schema
 * (https://jsonpathfinder.com) - Localizador de paths em json
